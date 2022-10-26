@@ -6,7 +6,7 @@ background-color: #F08080;
 
 .square1 {
   height: 5%;
-  width: 5%;
+  width: 10%;
   margin-left:auto;
   margin-right:auto;
   margin-top:auto;
@@ -15,7 +15,7 @@ background-color: #F08080;
 }
 .square2 {
   height: 5%;
-  width: 5%;
+  width: 10%;
   margin-left:auto;
   margin-right:auto;
   margin-top:auto;
@@ -24,7 +24,7 @@ background-color: #F08080;
 }
 .square3 {
   height: 5%;
-  width: 5%;
+  width: 10%;
   margin-left:auto;
   margin-right:auto;
   margin-top:auto;
@@ -33,7 +33,7 @@ background-color: #F08080;
 }
 .square4 {
   height: 5%;
-  width: 5%;
+  width: 10%;
   margin-left:auto;
   margin-right:auto;
   margin-top:auto;
@@ -42,7 +42,7 @@ background-color: #F08080;
 }
 .square5 {
   height: 5%;
-  width: 5%;
+  width: 10%;
   margin-left:auto;
   margin-right:auto;
   margin-top:auto;
@@ -77,5 +77,5 @@ background-color: #F08080;
 	margin-left:46%;
 	margin-top:auto;
 	margin-bottom:auto;
-  width: 20%
+  width: 6%
 }
