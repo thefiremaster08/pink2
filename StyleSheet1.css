@@ -1,37 +1,52 @@
-﻿body
+body
 {
 
 background-color: #F08080;
 }
-.boxes{
+
+.square1 {
+  height: 5%;
+  width: 5%;
   margin-left:auto;
   margin-right:auto;
   margin-top:auto;
   margin-bottom:auto;
-}
-.square1 {
-  height: 5%;
-  width: 5%;
   background-color: #F08080;
 }
 .square2 {
   height: 5%;
   width: 5%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom:auto;
   background-color: #FFDAB9;
 }
 .square3 {
   height: 5%;
   width: 5%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom:auto;
   background-color: #FFFAFA;
 }
 .square4 {
   height: 5%;
   width: 5%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom:auto;
   background-color: #FFF5EE;
 }
 .square5 {
   height: 5%;
   width: 5%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:auto;
+  margin-bottom:auto;
   background-color: #FFE4E1;
 }
 .t {
@@ -40,7 +55,7 @@ background-color: #F08080;
 	margin-right:auto;
 	margin-top:auto;
 	margin-bottom:auto;
-	width: 60%
+	width: 35%
 }
 .s {
 	display:none;
@@ -48,7 +63,7 @@ background-color: #F08080;
 	margin-right:auto;
 	margin-top:auto;
 	margin-bottom:auto;
-	width: 60%
+	width: 35%
 }
 .c {
 	display:none;
@@ -56,11 +71,11 @@ background-color: #F08080;
 	margin-right:auto;
 	margin-top:auto;
 	margin-bottom:auto;
-	width: 60%
+	width: 35%
 }
 .container h1  {
 	margin-left:46%;
 	margin-top:auto;
 	margin-bottom:auto;
-	width: 60%
+  width: 20%
 }
