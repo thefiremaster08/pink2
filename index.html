@@ -1,0 +1,72 @@
+<!<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>pink shapes</title>
+				<link rel="stylesheet" href="StyleSheet1.css">
+
+
+	</head>
+	<body>
+
+
+
+	<div class="container">
+	<h1 id="ct"></h1>
+	</div>
+	<i1>
+		<img onclick="doSomething()" id="tri" class="t" src="t.png">
+		<img onclick="doSomething2()" id="sPQR" class="s" src="s.png" >
+		<img onclick="doSomething3()" id="cic" class="c" src="c.png" >
+		<i1/>
+		<div class= "boxes">
+			<div class= "background"></div>
+		<div onclick="c1()" class="square1" id="s1"></div>
+		<div onclick="c2()" class="square2" id="s2"></div>
+		<div onclick="c3()" class="square3" id="s3"></div>
+		<div onclick="c4()" class="square4" id="4"></div>
+		<div onclick="c5()" class=id="5" id="5d"></div>
+</div>
+
+
+		<script>
+		function doSomething(){
+		document.getElementById("tri").style.display = "none";
+		document.getElementById("sPQR").style.display = "block";
+		}
+		function doSomething2(){
+		document.getElementById("sPQR").style.display = "none";
+		document.getElementById("cic").style.display = "block";
+		}
+		function doSomething3(){
+		document.getElementById("cic").style.display = "none";
+		document.getElementById("tri").style.display = "block";
+		}
+		function c1(){
+				document.body.style.backgroundColor = "#F08080";
+		}
+		function c2(){
+			document.body.style.backgroundColor = "#FFDAB9"
+		}
+		function c3(){
+			document.body.style.backgroundColor = "#FFFAFA"
+		}
+		function c4(){
+			document.body.style.backgroundColor = "FFF5EE"
+		}
+		function c5(){
+			document.body.style.backgroundColor = "#FFE4E1"
+		}
+		let time = document.getElementById("ct");
+
+
+		setInterval(() =>{
+		let d = new Date();
+		time.innerHTML = d.toLocaleTimeString();
+		},1000)
+
+		</script>
+
+	</body>
+</html>
