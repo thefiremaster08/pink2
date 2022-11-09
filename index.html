@@ -43,21 +43,13 @@
 		document.getElementById("cic").style.display = "none";
 		document.getElementById("tri").style.display = "block";
 		}
-		function c1(){
-				document.body.style.backgroundColor = "#F08080";
+		const pinks = ["F08080", "FFDAB9", "FFFAFA","FFE4E1","FFF5EE","FF69B4","FF1493","FF91AF","#ffc0cb","#ffc6d0","#ffccd5","#ffd2da","#ffd9df","#ffdfe5","#ffe5ea","#ffecef","#fff2f4","#fff8f9","#FF00FF","#FF6FFF","#DE6FA1","#FBAED2",	"#FB607F","	#F987C5","#EC5578"];
+  	function c1(){
+
+        document.body.style.backgroundColor = (pinks[Math.floor(Math.random() * 25)]);
 		}
-		function c2(){
-			document.body.style.backgroundColor = "#FFDAB9"
-		}
-		function c3(){
-			document.body.style.backgroundColor = "#FFFAFA"
-		}
-		function c4(){
-			document.body.style.backgroundColor = "FFF5EE"
-		}
-		function c5(){
-			document.body.style.backgroundColor = "#FFE4E1"
-		}
+
+		
 		let time = document.getElementById("ct");
 
 
